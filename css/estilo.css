@@ -230,3 +230,38 @@ iframe{
   display: block;
   padding: 2% 0;
 }
+/* ==== página contato ======= */
+
+#form-contato{
+  margin: auto;
+  max-width: 700px;
+  width: 95%;
+}
+#form-contato input,
+#form-contato textarea{
+  border: solid 1px rgb(103,103,103);
+  width: 100%;
+  margin: 4px auto;
+  border-radius: 5px;
+}
+#form-contato input{
+  height: 40px;
+}
+#form-contato button{
+border: none;
+padding: 2%;
+background-color: #000;
+color: #fff;
+border-radius: 5px;
+}
+#form-contato button:hover,
+#form-contato button:focus{
+  background-color: #ED6D19;
+  cursor: pointer;
+}
+.conteudo-info p{
+  margin: 5%;
+}
+.localizacao p {
+  text-align: center;
+}
